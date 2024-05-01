@@ -94,8 +94,8 @@ def print_dict(data: Dict[str, Dict]):
     # Print the headers
     print(header_template.format(*headers))
 
-    # Sort the data by l1_loss_change in descending order
-    sorted_items = sorted(data.items(), key=lambda item: item[1]["l1_loss_change"], reverse=True)
+    # Sort the data by range in descending order
+    sorted_items = sorted(data.items(), key=lambda item: item[1]["range"], reverse=True)
 
     # Print each layer's statistics
     for key, stat in sorted_items:
