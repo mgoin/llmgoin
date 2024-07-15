@@ -1,3 +1,4 @@
+# uv pip install https://github.com/flashinfer-ai/flashinfer/releases/download/v0.0.9/flashinfer-0.0.9+cu121torch2.3-cp310-cp310-linux_x86_64.whl
 import torch
 import flashinfer
 import time
